@@ -70,9 +70,82 @@ form the covariance matrix <i>C</i> = <span class="f"><span class="n">1</span><s
 eigenvalues and eigenvectors, take the eigenvector of the largest eigenvalue as the first principal component, and
 report &lambda;<sub>1</sub>/&Sigma;&lambda;<sub>i</sub> as the variance it explains. <b>Conic sections</b> is the same
 gap &mdash; diagonalise the quadratic form; both eigenvalues the same sign &rarr; ellipse, opposite signs &rarr; hyperbola.
-</div>
+</div><div class="brk"></div>
+<div class="unit"><span>THE GUARANTEE AUDIT &mdash; can this sheet actually clear 50?</span>
+<span class="rule">short answer: the content floor is 66</span></div>
 
-<div class="foot"><b>How to read this:</b> &ldquo;Section&rdquo; is the slot the question occupied in the March&nbsp;2024 paper
+<div class="pick"><b>What I did.</b> I tagged <b>every single part of every question in all four papers</b> by topic
+&mdash; <b>111 part-slots, 800 marks</b> &mdash; and matched each one against the rows on pages 1&ndash;3. Then I
+computed, for each unit of each paper, how much the better of the two questions would have scored. No estimates.</div>
+
+<table class="g avoid">
+<tr><th style="width:52%">Audit check</th><th class="c">Result</th></tr>
+<tr><td>Part-slots examined (4 papers, every sub-part)</td><td class="c"><b>111</b> &nbsp;/&nbsp; 800 marks</td></tr>
+<tr><td>Marks covered by the rows on pages 1&ndash;3</td><td class="c"><b>774 / 800 = 96.8%</b></td></tr>
+<tr><td>Units where <i>at least one</i> of the two questions is 100% covered</td><td class="c"><b>20 of 20</b> (5 units &times; 4 papers)</td></tr>
+<tr><td>March 2024 paper (your current format)</td><td class="c"><b>33 / 33 parts &mdash; no gaps at all</b></td></tr>
+<tr><td>Topics found that this sheet does <b>not</b> teach</td><td class="c"><b>4</b> &mdash; all listed below</td></tr>
+</table>
+
+<h4 style="margin:7px 0 3px;font-size:9pt">The four gaps &mdash; and the one line that closes each</h4>
+<p style="margin:0 0 4px;font-size:7.9pt"><b>Every one of these sits in a question you would never choose</b>
+&mdash; in all 20 unit-paper combinations, the <i>other</i> question was fully covered. All four are Unit&nbsp;I/II
+bookwork. Thirty minutes closes them and takes coverage to 100%.</p>
+<table class="g avoid">
+<tr><th style="width:26%">Gap</th><th class="c" style="width:17%">Where</th><th class="c" style="width:7%">Marks</th><th>How to close it</th></tr>
+<tr><td><b>Transform of an integral</b></td><td class="c">Apr&nbsp;23 Q1a(ii)<br>Jun&nbsp;23 Q2a(ii)</td><td class="c">~3<br>each</td>
+<td>One formula: &nbsp;<i>L</i>{&#8747;<sub>0</sub><sup><i>t</i></sup> <i>f</i>(<i>u</i>)&thinsp;<i>du</i>} = <span class="f"><span class="n"><i>F</i>(<i>s</i>)</span><span class="d"><i>s</i></span></span> .
+&nbsp;Both papers paired it with a transform you already know.</td></tr>
+<tr><td><b>Prove</b> <i>L</i>{<i>f</i>(<i>t</i>)/<i>t</i>} = &#8747;<sub>s</sub><sup>&#8734;</sup><i>F</i>(<i>u</i>)&thinsp;<i>du</i></td>
+<td class="c">Jun&nbsp;23 Q2b</td><td class="c">7</td>
+<td>Write &#8747;<sub>s</sub><sup>&#8734;</sup><i>F</i>(<i>u</i>)<i>du</i> = &#8747;<sub>s</sub><sup>&#8734;</sup>[&#8747;<sub>0</sub><sup>&#8734;</sup><i>e</i><sup>&minus;<i>ut</i></sup><i>f</i>(<i>t</i>)<i>dt</i>]<i>du</i>,
+<b>swap the order</b>, integrate in <i>u</i> &rarr; <i>e</i><sup>&minus;<i>st</i></sup>/<i>t</i>. Done.</td></tr>
+<tr><td><b>Prove</b> <i>L</i>{(sinh&nbsp;<i>at</i>)<i>f</i>(<i>t</i>)} = &frac12;[<i>F</i>(<i>s</i>&minus;<i>a</i>) &minus; <i>F</i>(<i>s</i>+<i>a</i>)]</td>
+<td class="c">Sep&nbsp;23 Q2b</td><td class="c">7</td>
+<td>sinh&nbsp;<i>at</i> = &frac12;(<i>e<sup>at</sup></i> &minus; <i>e</i><sup>&minus;<i>at</i></sup>), then apply the
+<b>first shifting theorem</b> to each term. Three lines.</td></tr>
+<tr><td><b>State <i>and prove</i></b> the convolution theorem</td><td class="c">Sep&nbsp;23 Q3a</td><td class="c">6</td>
+<td>Write <i>L</i>{<i>f</i>}&middot;<i>L</i>{<i>g</i>} as a double integral, substitute <i>t</i> = <i>u</i>+<i>v</i>,
+swap the order of integration.</td></tr>
+</table>
+
+<div class="unit" style="margin-top:9px"><span>THE 14-ITEM CORE &mdash; what actually carries you past 50</span>
+<span class="rule">worst of the four papers: 66/100</span></div>
+<div class="pick"><b>These 14 items alone</b> &mdash; ignoring QR, SVD, least-squares, Gram&ndash;Schmidt,
+<i>A<sup>n</sup></i>, the improper integrals and everything else on pages 1&ndash;3 &mdash; would have scored
+<b>66, 91, 72 and 86</b> on the four papers. <b>The worst case is 66.</b> If your revision time only stretches
+to one thing, make it this list.</div>
+<table class="g avoid">
+<tr><th class="c" style="width:5%">#</th><th style="width:36%">Item</th><th class="c" style="width:6%">Unit</th>
+<th class="c" style="width:8%">Marks</th><th>Work involved &mdash; why it is low-risk</th></tr>
+<tr><td class="c">1</td><td><b><i>t<sup>n</sup></i>-multiplication proof</b></td><td class="c">I</td><td class="c">07</td><td>Pure recall. No arithmetic at all.</td></tr>
+<tr><td class="c">2</td><td><b>sin&nbsp;&radic;<i>t</i> &rarr; cos&nbsp;&radic;<i>t</i>/&radic;<i>t</i></b></td><td class="c">I</td><td class="c">04&ndash;07</td><td>Differentiate a given result. Four lines.</td></tr>
+<tr><td class="c">3</td><td><b>The 2-mark definitions</b> (LT, periodic, unit step, Dirac)</td><td class="c">I, II</td><td class="c">02&times;2</td><td>Four sentences and two sketches. Free marks in <i>both</i> options.</td></tr>
+<tr><td class="c">4</td><td><b>Short inverse LT</b> &mdash; partial fractions <i>and</i> the log form</td><td class="c">II</td><td class="c">04&ndash;06</td><td>One in each question, so it never depends on your choice.</td></tr>
+<tr><td class="c">5</td><td><b>Heaviside piecewise + LT</b></td><td class="c">II</td><td class="c">07</td><td>Mechanical once you have the pattern. Same values twice.</td></tr>
+<tr><td class="c">6</td><td><b>ODE / simultaneous ODE by LT</b></td><td class="c">II</td><td class="c">07</td><td>Always next to #5 (4/4). Longer, but the method never varies.</td></tr>
+<tr><td class="c">7</td><td><b>Composition of transformations</b></td><td class="c">III</td><td class="c">06</td><td>Three 2&times;2 matrices multiplied. Two minutes.</td></tr>
+<tr><td class="c">8</td><td><b>Transition matrix</b></td><td class="c">III</td><td class="c">07</td><td>One 2&times;2 inverse. Same bases twice running.</td></tr>
+<tr><td class="c">9</td><td><b>Kernel &amp; range + rank&ndash;nullity</b></td><td class="c">III</td><td class="c">07</td><td>One row reduction, then read it off.</td></tr>
+<tr><td class="c">10</td><td><b>Four fundamental subspaces</b></td><td class="c">IV</td><td class="c">07&ndash;10</td><td>One row reduction of a matrix that has never changed. <b>Always in Q7.</b></td></tr>
+<tr><td class="c">11</td><td><b>Complete solution of <i>Ax</i> = <i>b</i></b></td><td class="c">IV</td><td class="c">06&ndash;10</td><td>Row reduction again &mdash; the same skill as #10.</td></tr>
+<tr><td class="c">12</td><td><b>Positive-definite check</b></td><td class="c">V</td><td class="c">05</td><td>Three determinants. Under two minutes.</td></tr>
+<tr><td class="c">13</td><td><b>Unitary / Hermitian check</b></td><td class="c">V</td><td class="c">05</td><td>One conjugate transpose. Under two minutes.</td></tr>
+<tr><td class="c">14</td><td><b>Orthogonal diagonalization</b></td><td class="c">V</td><td class="c">10</td><td>The one long computation &mdash; but the matrix repeated in 3 of 4 papers, so you can rehearse it exactly.</td></tr>
+</table>
+
+<div class="box g avoid"><b>THE HONEST VERDICT.</b> I am not going to tell you this is a certainty, because one
+part of it is not mine to promise. Here is the split:<br>
+&bull; <b>What I can stand behind:</b> the <i>content</i> is there. 96.8% of 800 marks across four papers, 100% of
+the current-format paper, and in all 20 unit-paper combinations at least one question was fully covered. The 14-item
+core alone floors at <b>66</b> &mdash; a <b>16-mark cushion</b> over 50. You could completely blank on
+orthogonal diagonalization (10) <i>and</i> the ODE (7) and still be at 49&ndash;50 from the rest.<br>
+&bull; <b>What I cannot promise:</b> execution. Knowing the method and getting the arithmetic right in three hours
+are different things, and a sign error in a 10-marker is worth more than any prediction. To land below 50 with this
+core actually learned, you would have to lose <b>more than a quarter</b> of what you attempt to slips.<br>
+&bull; <b>The one structural risk:</b> choosing the wrong question. Use the triggers &mdash; and if a trigger is
+missing from a unit, do not force it: count the marks you can genuinely do in each of the two questions and take the
+larger. That takes thirty seconds and protects the whole plan.</div><div class="foot"><b>How to read this:</b> &ldquo;Section&rdquo; is the slot the question occupied in the March&nbsp;2024 paper
 (the only one under your current course title) with the older papers cross-checked. &ldquo;Freq&rdquo; is how many of the
 four papers carried that topic. Items marked <b>identical values</b> have been set with the same numbers more than once.
 Predictions are inferences from four papers &mdash; strong, not guaranteed. Full 22-page analysis, pairing laws and the

@@ -13,7 +13,8 @@ Batch 2024, Academic Year 2025–2026.
 | [`prediction/24CS31_LastMinute_Cram_Sheet.pdf`](prediction/24CS31_LastMinute_Cram_Sheet.pdf) | **Last-minute cram sheet** — 3 pages: the predicted questions per unit, with section, marks and frequency |
 | [`prediction/24CS31_Prediction_Sheet.pdf`](prediction/24CS31_Prediction_Sheet.pdf) | Full **SEE prediction sheet** — 22 pages: paper pattern, frequency analysis, section-pairing laws, tiered predictions, exam-hall decision card |
 | [`prediction/pyqs/`](prediction/pyqs/) | The four distinct previous question papers the prediction is built from |
-| [`prediction/build_sheet.py`](prediction/build_sheet.py) | Generator for the prediction sheet (HTML → PDF) |
+| [`prediction/coverage_audit.py`](prediction/coverage_audit.py) | Tags all 111 part-slots of the four papers by topic and computes cram-sheet coverage and the worst-case floor |
+| [`prediction/build_sheet.py`](prediction/build_sheet.py), [`build_cram.py`](prediction/build_cram.py) | Generators for the two sheets (HTML → PDF) |
 
 ## Course at a glance
 
